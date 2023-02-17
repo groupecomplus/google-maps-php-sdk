@@ -96,7 +96,7 @@ class GoogleMapsElevationHttpTest extends TestCase
 
 		$this->assertEquals(39.73915360, $array_result['location']['lat']);
 		$this->assertEquals(-104.9847034, $array_result['location']['lng']);
-		$this->assertEquals(1608.6379394531, $array_result['elevation']);
+		$this->assertEquals(1608.637939453125, $array_result['elevation']);
 	}
 
 	/**
@@ -128,7 +128,7 @@ class GoogleMapsElevationHttpTest extends TestCase
 
 		$this->assertEquals(39.73915360, $array_first_result['location']['lat']);
 		$this->assertEquals(-104.9847034, $array_first_result['location']['lng']);
-		$this->assertEquals(1608.6379394531, $array_first_result['elevation']);
+		$this->assertEquals(1608.637939453125, $array_first_result['elevation']);
 
 		$this->assertArrayHasKey('elevation', $array_last_result);
 		$this->assertArrayHasKey('location', $array_last_result);
@@ -136,7 +136,7 @@ class GoogleMapsElevationHttpTest extends TestCase
 
 		$this->assertEquals(50.123, $array_last_result['location']['lat']);
 		$this->assertEquals(99.456, $array_last_result['location']['lng']);
-		$this->assertEquals(2013.5008544922, $array_last_result['elevation']);
+		$this->assertEquals(2013.500854492188, $array_last_result['elevation']);
 	}
 
 	/**
@@ -168,7 +168,7 @@ class GoogleMapsElevationHttpTest extends TestCase
 
 		$this->assertEquals(39.73915360, $array_first_result['location']['lat']);
 		$this->assertEquals(-104.9847034, $array_first_result['location']['lng']);
-		$this->assertEquals(1608.6379394531, $array_first_result['elevation']);
+		$this->assertEquals(1608.637939453125, $array_first_result['elevation']);
 
 		$this->assertArrayHasKey('elevation', $array_last_result);
 		$this->assertArrayHasKey('location', $array_last_result);
@@ -176,7 +176,7 @@ class GoogleMapsElevationHttpTest extends TestCase
 
 		$this->assertEquals(50.123, $array_last_result['location']['lat']);
 		$this->assertEquals(99.456, $array_last_result['location']['lng']);
-		$this->assertEquals(2013.5008544922, $array_last_result['elevation']);
+		$this->assertEquals(2013.500854492188, $array_last_result['elevation']);
 	}
 
 	/**
@@ -210,7 +210,7 @@ class GoogleMapsElevationHttpTest extends TestCase
 
 		$this->assertEquals(39.73915360, $array_first_result['location']['lat']);
 		$this->assertEquals(-104.9847034, $array_first_result['location']['lng']);
-		$this->assertEquals(1608.6379394531, $array_first_result['elevation']);
+		$this->assertEquals(1608.637939453125, $array_first_result['elevation']);
 
 		$this->assertArrayHasKey('elevation', $array_last_result);
 		$this->assertArrayHasKey('location', $array_last_result);
@@ -218,6 +218,6 @@ class GoogleMapsElevationHttpTest extends TestCase
 
 		$this->assertEquals(50.123, $array_last_result['location']['lat']);
 		$this->assertEquals(99.456, $array_last_result['location']['lng']);
-		$this->assertEquals(2013.5008544922, $array_last_result['elevation']);
+		$this->assertEquals(2013.500854492188, $array_last_result['elevation']);
 	}
 }

@@ -346,7 +346,7 @@ class GoogleMapsPlacesTest extends TestCase
 		$result = $this->place_with_key->findPlaceByPhoneNumber("+61293744000");
 
 		$this->assertInstanceOf(PlaceResultsCollection::class, $result);
-		$this->assertEquals(3, $result->count());
+		$this->assertEquals(4, $result->count());
 		$this->assertEquals("ChIJN1t_tDeuEmsRUsoyG83frY4", $result->current()->getPlaceId());
 	}
 
